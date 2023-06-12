@@ -93,3 +93,23 @@ color: var(--white);
 text-align: left;
 
 }
+@media screen and  (max-width:992px){
+   .films__wrap{
+    flex-wrap: wrap;
+   } 
+   .films__card{
+    max-width: 320px;
+   }
+}
+@media screen and  (max-width:720px){
+    .films__card{
+        max-width: 255px;
+    }
+}
+.btn{
+height: 46px;
+width: 166px;
+border-radius: 4px;
+
+
+}
