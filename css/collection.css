@@ -59,3 +59,10 @@
     line-height: 22px;
     color: var(--white);
 }
+@media screen and (max-width:991px) {
+    .collections__wrap{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
